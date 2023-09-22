@@ -1,7 +1,23 @@
 body{
     background-color: rgb(4, 2, 26) !important;
-    color: rgb(226, 226, 226);
+    color: rgb(244, 244, 244);
 }
 .cfs-7 {
     font-size: 11px !important;
 }
+header{
+    color: rgb(244, 244, 244);
+    
+}
+header img{
+    max-width: 300px;
+    max-height: 300px;
+    width:auto;
+    height:auto;
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
