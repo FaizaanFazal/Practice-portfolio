@@ -1,6 +1,7 @@
 body{
     background-color: rgb(4, 2, 26) !important;
     color: rgb(242, 242, 242);
+
 }
 .cfs-7 {
     font-size: 11px !important;
@@ -8,3 +9,39 @@ body{
 form input{
     font-size: 12px !important;
 }
+
+header{
+    color: rgb(244, 244, 244);
+    
+}
+header img{
+    max-width: 300px;
+    max-height: 300px;
+    width:auto;
+    height:auto;
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+/* skills */
+.skillsText.card {
+
+    cursor: pointer;
+  }
+.skillsIcon {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+
+.skillsText:hover {
+    border-bottom: 3px solid #008000;
+}
+
+
