@@ -8,7 +8,7 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
+        use: ['style-loader', 'css-loader','postcss-loader'],
       },
       {
         test: /\.(png|svg|jpg|jpeg)$/i,
@@ -23,7 +23,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/template.html',
+      template: 'src/index.html',
       filename: 'index.html',
       inject: false
     })
