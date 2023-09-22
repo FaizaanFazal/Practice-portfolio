@@ -1,6 +1,7 @@
 body{
     background-color: rgb(4, 2, 26) !important;
-    color: rgb(244, 244, 244);
+    color: rgb(240, 240, 240) !important;
+
 }
 .cfs-7 {
     font-size: 11px !important;
@@ -20,4 +21,25 @@ header img{
     margin-right: auto;
     border-radius: 100%;
 }
+
+/* skills */
+.skillsText.card {
+
+    cursor: pointer;
+  }
+.skillsIcon {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+
+.skillsText:hover {
+    border-bottom: 3px solid #008000;
+}
+
+
+
 
